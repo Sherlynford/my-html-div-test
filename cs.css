@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+.nav{
+    background-color: aqua;
+    flex-direction: row;
+    display: flex;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-left: 7px;
+}
+
+.linkleft{
+    padding:15px;
+}
+.linkright{
+    padding: 15px;
+    margin-left: auto;
+}
+.container{
+    display: flex;
+}
+.Leftside{
+    width: 70%;
+    height: auto;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    padding: 15px;
+    flex-direction: column;
+    display: flex;
+}
+.Rightside{
+    width: 30%;
+    height: auto;
+    border: 2px solid black;
+    background-color: blueviolet;
+    padding: 15px;
+}
+.footer{
+    background-color: yellow;
+
+}
+Footer{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.leftside-block{
+    border: 2px solid black;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.allblock1{
+    background-color: blue;
+    border: 2px solid black;
+    height: auto;
+    padding: 20px;
+    display: flex;
+}
+.child-block-r{
+    background-color: red;
+    height: 90px;
+    margin-right: 10px;
+}
+.child-block-g{
+    background-color: greenyellow;
+    height: 90px;
+    margin-right: 10px;
+}
+.allblock2{
+    flex-direction: row;
+    display: flex;
+    border: 2px solid black;
+}
+.allblock2-g{
+    background-color: green;
+    width: 50%;
+    flex-direction: row;
+    display: flex;
+    height: auto;
+}
+.allblock2-p{
+    background-color: pink;
+    width: 50%;
+    flex-direction: row;
+    display: flex;
+    height: auto;
+}
+.child-block-p{
+    background-color: pink;
+    height: 90px;
+    margin: 10px;
+    
+    
+}
+.child-block-lg{
+    background-color: green;
+    height: 90px;
+    margin: 10px;
+    margin-left: auto;
+}
+.right-side-block{
+    border: 2px solid black;
+    margin-bottom: 10px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 15px;
+}
+.wat{
+    border: 2px solid black;
+    height: 90px;
+    border-radius: 12px;
+}
